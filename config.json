@@ -1,0 +1,15 @@
+{
+    "username": "GITHUB_USERNAME",
+    "token": "GITHUB_TOKEN",
+    "vault_dir": "VAULT_DIR",
+    "repos": [
+        {
+            "name": "Obsidian folder name",
+            "repo_name": "repo, but not the full link, just the ending for eg. syncObsidian"
+        },
+        {
+            "name": "Food",
+            "repo_name": "recipes"
+        }
+    ]
+}
