@@ -19,5 +19,5 @@ function sync {
 CTRL + S
 > . $PROFILE
 
-lsob -> list items in vault directory
+lsob -> list items in vault directory<br/>
 sync -> starts the script
