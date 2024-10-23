@@ -1,23 +1,42 @@
+# syncObsidian 🟣
 
-# syncObsidian
-An alternative using python, to sync your obsidian notes over devices.
+A Python-based alternative to easily sync your Obsidian notes across multiple devices.
 
-If u are using powershell like me u can make this process even easier by editing ur custom commands
+If you're like me and use PowerShell, you can streamline this process even further by customizing your commands. Here's how:
 
-> notepad $PROFILE
+### PowerShell Custom Commands
+
+Open your profile in Notepad to set up some handy functions:
+
+```powershell
+notepad $PROFILE
 ```
-# OBSIDIAN
-# list contents of vault
-function lsob { gci "C:\Documents\Vault" }
 
+Then, add the following to your profile:
+
+```powershell
+# OBSIDIAN
+# List contents of your Obsidian vault
+function lsob { Get-ChildItem "C:\Documents\Vault" }
+
+# Sync Obsidian notes
 function sync {
     Set-Location "C:\syncObsidian"
     python .\sync.py
 }
 ```
 
-CTRL + S
-> . $PROFILE
+Save the file (`CTRL + S`), then update your session with:
 
-lsob -> list items in vault directory<br/>
-sync -> starts the script
+```powershell
+. $PROFILE
+``
+
+### 🚀 Usage
+
+- **`lsob`** — Lists all items in your Obsidian vault directory.
+- **`sync`** — Runs the Python sync script to keep your notes updated.
+
+Happy note-syncing! 📝✨
+
+---
