@@ -30,13 +30,8 @@ Save the file (`CTRL + S`), then update your session with:
 
 ```powershell
 . $PROFILE
-``
+```
 
 ### 🚀 Usage
-
 - **`lsob`** — Lists all items in your Obsidian vault directory.
 - **`sync`** — Runs the Python sync script to keep your notes updated.
-
-Happy note-syncing! 📝✨
-
----
