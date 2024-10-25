@@ -2,7 +2,7 @@
 
 syncObsidian is a CLI tool designed for syncing GitHub repositories to local directories in your Obsidian vault. Ideal for users who frequently work across multiple devices, it automates the syncing of repositories, making it easy to keep notes, code, or any files in sync across systems. With options for cloning, syncing, adding, and removing repositories, syncObsidian ensures a seamless setup for collaborative or personal workflows.
 
-![CLI Preview](imgur.com/a/ssN5Pgk)
+![CLI Preview](https://imgur.com/a/ssN5Pgk)
 
 ## Features
 - **Automatic Syncing**: Syncs local folders in your vault with GitHub repositories.
